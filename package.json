@@ -4,6 +4,7 @@
   "description": "A downloader for haveIBeenPwned password list automaticly",
   "main": "src/index.js",
   "scripts": {
+    "dev:tests": "nodemon -x npm test",
     "test": "find ./src -name *.test.js | xargs mocha -t 12000"
   },
   "keywords": [
