@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev:tests": "nodemon -x npm test",
-    "test": "find ./src -name *.test.js | xargs mocha -t 12000"
+    "test": "find ./src -name *.test.js | xargs mocha -t 30000"
   },
   "keywords": [
     "have-i-been-pwned",
