@@ -1,0 +1,17 @@
+{
+  "name": "pwned-passwords-downloader",
+  "version": "0.0.0",
+  "description": "A downloader for haveIBeenPwned password list automaticly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "have-i-been-pwned",
+    "downloader",
+    "passwords",
+    "password-list"
+  ],
+  "author": "Victor Perin <me@victorperin.ninja>",
+  "license": "MIT"
+}
