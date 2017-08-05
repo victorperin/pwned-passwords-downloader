@@ -13,5 +13,8 @@
     "password-list"
   ],
   "author": "Victor Perin <me@victorperin.ninja>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nightmare": "^2.10.0"
+  }
 }
