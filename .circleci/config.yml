@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/pwned-passwords-downloader
     docker:
-      - image: circleci/node:8.2.1
+      - image: circleci/node:8.2.1-browsers
     steps:
       - checkout
 
