@@ -21,5 +21,13 @@
   "devDependencies": {
     "chai": "^4.1.1",
     "mocha": "^3.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorperin/pwned-passwords-downloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/victorperin/pwned-passwords-downloader/issues"
+  },
+  "homepage": "https://github.com/victorperin/pwned-passwords-downloader#readme"
 }
