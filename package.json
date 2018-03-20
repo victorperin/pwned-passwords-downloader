@@ -1,8 +1,8 @@
 {
   "name": "pwned-passwords-downloader",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A downloader for haveIBeenPwned password list automaticly",
-  "main": "src/index.js",
+  "main": "dist/main.js",
   "scripts": {
     "dev:tests": "nodemon -x npm test",
     "test": "find ./src -name *.test.js | xargs mocha -t 30000"
@@ -16,11 +16,13 @@
   "author": "Victor Perin <me@victorperin.ninja>",
   "license": "MIT",
   "dependencies": {
-    "nightmare": "^2.10.0"
+    "cheerio": "^1.0.0-rc.2"
   },
   "devDependencies": {
     "chai": "^4.1.1",
-    "mocha": "^3.5.0"
+    "mocha": "^3.5.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
   },
   "repository": {
     "type": "git",
