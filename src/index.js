@@ -1,5 +1,5 @@
-const getFilesInformation = require('./src/get-files-information');
+const getFilesInformation = require('./get-files-information');
 
-Promise.resolve()
-  .then(getFilesInformation)
-  .then(console.log)
+getFilesInformation()
+    .then(info => console.log(JSON.stringify(info, null, 4)))
+    .catch(console.error);
